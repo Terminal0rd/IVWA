@@ -5,19 +5,22 @@
 </head>
 <body>
 
-    <h1>{{ module_name }}</h1>
+    <h1>{{ module.title }}</h1>
 
     <div style="display: flex; gap: 50px;">
 
-        <!-- LEFT SIDE -->
+        <!-- LEFT -->
         <div>
-            <h2>Story</h2>
-            <p>Something suspicious is happening inside the system...</p>
+            <h2>Description</h2>
+            <p>{{ module.description }}</p>
+
+            <h3>Goal</h3>
+            <p>{{ module.goal }}</p>
 
             <button>Hint</button>
         </div>
 
-        <!-- RIGHT SIDE -->
+        <!-- RIGHT -->
         <div>
             <h2>Login</h2>
 
